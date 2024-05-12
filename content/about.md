@@ -18,4 +18,4 @@ I am a Ph.D student in theoretical physics at the **University of British Columb
 - Strings 2023, Perimeter Institute, Canada, July 24-29, 2023
 - TASI summer school, University of Colorado, Boulder, USA, June 5-30, 2024
 
-If our worldlines cross at any of the above places, feel free to send me an email.
+If our worldlines cross at any of the above coordinates, feel free to send me an email.
