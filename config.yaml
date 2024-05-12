@@ -1,0 +1,49 @@
+# exampleSite/config.yaml
+baseURL: https://shovonbiswas.me/ # Replace with your domain
+languageCode: en-us
+theme: smigle
+title: Shovon Biswas
+menu:
+  main: # Change menu as needed
+    - identifier: about
+      name: Home
+      url: /about/
+      weight: 1
+    - identifier: notes
+      name: Notes
+      url: /posts/
+      weight: 3
+    - identifier: publi
+      name: Publications
+      url: /publi/
+      weight: 2
+    - identifier: misc
+      name: Misc
+      url: /misc/
+      weight: 4
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 5
+
+params:
+  abbrDateFmt: "Jan 2"
+  author: "Shovon Biswas"
+  brandIconFile: "images/46.jpg"
+  dateFmt: "2006-01-02"
+  ##
+  ## Options for overriding theme or page defaults
+  ##
+  #customStylesheets: # Use to override theme styles, like logo size
+  #  - "css/custom.css"
+  #readingSpeed: 600 # Use to set custom reading speed
+  #readingSpeedMin: 25 # Use to set custom reading speed range
+  #readingSpeedMax: 175 # Use to set custom reading speed range
+  social:
+    - name: Inspire HEP
+      url: https://inspirehep.net/authors/1674623?ui-citation-summary=true
+    - name: Google Scholar
+      url: https://scholar.google.ca/citations?user=Par8orQAAAAJ&hl=en
+    - name: ORCiD
+      url: https://orcid.org/0000-0002-2935-182X
+  subtitle: " "
