@@ -1,5 +1,5 @@
 # exampleSite/config.yaml
-baseURL: https://shovonbiswas.me/ # Replace with your domain
+baseURL: https://shovon-b.github.io/shovonbiswas/about/ # Replace with your domain
 languageCode: en-us
 theme: smigle
 title: Shovon Biswas
@@ -9,10 +9,6 @@ menu:
       name: Home
       url: /about/
       weight: 1
-    - identifier: notes
-      name: Notes
-      url: /posts/
-      weight: 3
     - identifier: publi
       name: Publications
       url: /publi/
@@ -20,11 +16,11 @@ menu:
     - identifier: misc
       name: Misc
       url: /misc/
-      weight: 4
+      weight: 3
     - identifier: contact
       name: Contact
       url: /contact/
-      weight: 5
+      weight: 4
 
 params:
   abbrDateFmt: "Jan 2"
