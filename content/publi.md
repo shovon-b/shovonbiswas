@@ -2,7 +2,7 @@
 title: 
 layout: default
 ---
-
+I am interested in all aspects of quantum field theory - formal, observational, and applications in other fields (e.g. modeling deep neural networks).
 For my most up-to-date academic profile, please visit [inspire](https://inspirehep.net/authors/1674623?ui-citation-summary=true).
 
 1. The BCFT Spectrum from AdS Brane Mergers [arxiv:2209.11227](https://arxiv.org/abs/2209.11227)\
