@@ -1,5 +1,5 @@
 # exampleSite/config.yaml
-baseURL: www.shovonbiswas.me # Replace with your domain
+baseURL: www.shovonbiswas.me/about/ # Replace with your domain
 languageCode: en-us
 theme: smigle
 title: Shovon Biswas
