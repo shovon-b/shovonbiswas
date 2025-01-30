@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Site.Title }}</title>
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <script>
+    // Toggle night mode
+    function toggleNightMode() {
+      document.body.classList.toggle("night-mode");
+      localStorage.setItem("nightMode", document.body.classList.contains("night-mode"));
+    }
+
+    // Check for saved night mode preference
+    if (localStorage.getItem("nightMode") === "true") {
+      document.body.classList.add("night-mode");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>{{ .Site.Title }}</h1>
+    <button onclick="toggleNightMode()">Toggle Night Mode</button>
+  </header>
+
+  <main>
+    {{ .Content }} <!-- This renders the Markdown content -->
+  </main>
+
+  <footer>
+    <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
+  </footer>
+</body>
+</html>

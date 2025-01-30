@@ -1,0 +1,205 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+
+/* General body styles */
+body {
+  font-family: 'Roboto Mono', monospace; /* Monospace font for LaTeX \texttt style */
+  line-height: 1.6;
+  margin: 20px; /* Reduced margin */
+  padding: 0;
+  background-color: #f8f9fa; /* Lighter background color */
+  color: #333333; /* Dark gray for body text */
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align content to the left */
+  min-height: 100vh; /* Ensure the body takes up the full viewport height */
+  font-size: 14px; /* Slightly smaller font size */
+}
+
+.night-mode {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+/* Header styles */
+header {
+  padding: 1rem 2rem; /* Increased padding */
+  text-align: left; /* Left-align header text */
+  background-color: transparent; /* Remove background color */
+  width: 100%; /* Ensure the header spans the full width */
+  position: relative; /* Required for positioning the night mode button */
+  display: flex; /* Use flexbox to align photo and title */
+  align-items: center; /* Vertically center items */
+  gap: 1.5rem; /* Space between photo and title */
+}
+
+header img {
+  width: 100px; /* Larger rectangular photo */
+  height: 100px; /* Larger rectangular photo */
+  border-radius: 10px; /* Slightly rounded corners */
+  object-fit: cover; /* Ensure the photo fits well */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem; /* Larger font size for the main header */
+  color: #3E2723; /* Dark brown for headings */
+}
+
+/* Night mode button styles */
+header button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute; /* Position the button absolutely */
+  top: 100%; /* Move below the heading */
+  center: 20px; /* Position it on the right side */
+  font-size: 1.5rem; /* Larger icon size */
+  color: #333333; /* Default icon color */
+  transition: color 0.3s;
+}
+
+header button:hover {
+  color: #1A73E8; /* Blue for hover effect */
+}
+
+.night-mode header button {
+  color: #f0f0f0; /* Icon color in night mode */
+}
+
+/* Blinking cursor effect */
+.blinking-cursor {
+  font-weight: bold;
+  font-size: 2.5rem; /* Bigger blinking cursor */
+  color: #333333;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Main content styles */
+main {
+  padding: 0.5rem 1rem; /* Reduced padding */
+  max-width: 800px; /* Limit the width of the content for better readability */
+  width: 100%; /* Ensure it takes up the full width up to the max-width */
+  box-sizing: border-box; /* Include padding in the width calculation */
+  text-align: left; /* Left-align text inside the main content */
+}
+
+/* Footer styles */
+footer {
+  text-align: left; /* Left-align footer text */
+  padding: 0.5rem 1rem; /* Reduced padding */
+  background-color: transparent; /* Remove background color */
+  color: #333333; /* Dark gray for footer text */
+  width: 100%; /* Ensure the footer spans the full width */
+  margin-top: auto; /* Push the footer to the bottom */
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem; /* Space between links */
+  margin-bottom: 0.5rem; /* Space between links and copyright */
+}
+
+.footer-links a {
+  color: #1A73E8; /* Blue for links */
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.night-mode footer {
+  color: #f0f0f0; /* Footer text color in night mode */
+}
+
+.night-mode .footer-links a {
+  color: #1A73E8; /* Blue for links in night mode */
+}
+
+/* Markdown-specific styles */
+main h2 {
+  color: #3E2723; /* Dark brown for h2 headings */
+  font-size: 1.5rem; /* Smaller font size for h2 */
+  margin: 1rem 0 0.5rem 0; /* Reduced margin */
+}
+
+main h3 {
+  color: #3E2723; /* Dark brown for h3 headings */
+  font-size: 1.25rem; /* Smaller font size for h3 */
+  margin: 0.75rem 0 0.5rem 0; /* Reduced margin */
+}
+
+main p {
+  margin: 0.5rem 0; /* Reduced margin for paragraphs */
+}
+
+main a {
+  color: #1A73E8; /* Blue for hyperlinks */
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem 0; /* Reduced margin for images */
+}
+
+/* Mobile-friendly styles */
+@media (max-width: 768px) {
+  body {
+    margin: 10px; /* Smaller margin on mobile */
+    padding: 0 5px; /* Add small padding on mobile */
+    font-size: 13px; /* Slightly smaller font size on mobile */
+  }
+
+  header {
+    padding: 0.5rem 1rem; /* Smaller padding on mobile */
+  }
+
+  header img {
+    width: 80px; /* Smaller photo on mobile */
+    height: 80px; /* Smaller photo on mobile */
+  }
+
+  header h1 {
+    font-size: 2rem; /* Smaller font size for the main header on mobile */
+  }
+
+  header button {
+    top: 100px; /* Adjust button position for mobile */
+    right: 10px; /* Adjust button position for mobile */
+    font-size: 1.25rem; /* Smaller icon size on mobile */
+  }
+
+  main {
+    padding: 0.25rem 0.5rem; /* Smaller padding on mobile */
+  }
+
+  main h2 {
+    font-size: 1.25rem; /* Smaller font size for h2 on mobile */
+  }
+
+  main h3 {
+    font-size: 1.1rem; /* Smaller font size for h3 on mobile */
+  }
+
+  .blinking-cursor {
+    font-size: 2rem; /* Smaller blinking cursor on mobile */
+  }
+}

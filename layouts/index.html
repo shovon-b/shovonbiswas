@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Site.Title }}</title>
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    // Toggle night mode
+    function toggleNightMode() {
+      document.body.classList.toggle("night-mode");
+      localStorage.setItem("nightMode", document.body.classList.contains("night-mode"));
+    }
+
+    // Check for saved night mode preference
+    if (localStorage.getItem("nightMode") === "true") {
+      document.body.classList.add("night-mode");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <!-- Add the photo here -->
+    <img src="{{ "image/profile.jpg" | relURL }}" alt="Profile Photo">
+    <h1>{{ .Site.Title }}<span class="blinking-cursor">|</span></h1>
+  </header>
+
+  <!-- Night mode button -->
+  <button onclick="toggleNightMode()">🌙</button>
+
+  <main>
+    {{ .Content }} <!-- This renders the Markdown content -->
+  </main>
+
+  <footer>
+    <!-- Add 4 links here -->
+    <div class="footer-links">
+      <a href="https://scholar.google.ca/citations?user=Par8orQAAAAJ&hl=en">Google Scholar</a>
+      <a href="https://inspirehep.net/">InspireHEP</a> 
+      <a href="https://github.com/shovon-b">GitHub</a>
+     </div>
+    <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
+  </footer>
+</body>
+</html>
