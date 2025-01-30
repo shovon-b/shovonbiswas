@@ -1,0 +1,4 @@
+baseURL = "https://shovonbiswas.me/"
+languageCode = "en-us"
+title = "Shovon Biswas"
+disableKinds = ["taxonomy", "term"]
