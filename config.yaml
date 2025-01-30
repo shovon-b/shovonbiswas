@@ -1,5 +1,0 @@
-baseURL = "https://shovonbiswas.me/"
-publishDir = "public"
-languageCode = "en-us"
-title = "Shovon Biswas"
-disableKinds = ["taxonomy", "term"]
