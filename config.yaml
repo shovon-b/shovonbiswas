@@ -1,4 +1,4 @@
-baseURL = "https://shovonbiswas.me/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Shovon Biswas"
 disableKinds = ["taxonomy", "term"]
