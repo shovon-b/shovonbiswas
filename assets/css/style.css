@@ -1,0 +1,64 @@
+body {
+  font-family:"Computer Modern Serif", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.night-mode {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+header {
+  background-color: #0077b6;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header button {
+  background-color: #023e8a;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+main {
+  padding: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #0077b6;
+  color: white;
+}
+
+/* Markdown-specific styles */
+main h2 {
+  color: #0077b6;
+}
+
+main a {
+  color: #023e8a;
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem 0;
+}
