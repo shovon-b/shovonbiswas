@@ -24,18 +24,9 @@
     <!-- Add the photo here -->
     <img src="{{ "image/profile.jpg" | relURL }}" alt="Profile Photo">
     <h1>{{ .Site.Title }}<span class="blinking-cursor">|</span></h1>
-
-    <!-- Add navigation menu -->
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="{{ "projects/" | relURL }}">Projects</a></li> <!-- Correct link to Projects page -->
-      </ul>
-    </nav>
+    <!-- Night mode button moved next to the blinking cursor -->
+    <button onclick="toggleNightMode()">🌙</button>
   </header>
-
-  <!-- Night mode button -->
-  <button onclick="toggleNightMode()">🌙</button>
 
   <main>
     {{ .Content }} <!-- This renders the Markdown content -->

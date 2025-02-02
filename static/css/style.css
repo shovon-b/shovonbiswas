@@ -52,12 +52,10 @@ header button {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  position: absolute; /* Position the button absolutely */
-  top: 100%; /* Move below the heading */
-  center: 20px; /* Position it on the right side */
   font-size: 1.5rem; /* Larger icon size */
   color: #333333; /* Default icon color */
   transition: color 0.3s;
+  margin-left: 10px; /* Add some space between the cursor and the button */
 }
 
 header button:hover {
@@ -72,8 +70,12 @@ header button:hover {
 .blinking-cursor {
   font-weight: bold;
   font-size: 2.5rem; /* Bigger blinking cursor */
-  color: #333333;
+  color: #333333; /* Default color for light mode */
   animation: blink 1s step-end infinite;
+}
+
+.night-mode .blinking-cursor {
+  color: #f0f0f0; /* White color for blinking cursor in night mode */
 }
 
 @keyframes blink {
@@ -160,6 +162,16 @@ main img {
   margin: 0.5rem 0; /* Reduced margin for images */
 }
 
+/* Night mode header and section color change */
+.night-mode header h1 {
+  color: #7A2E2E; /* Reddish-brown color for header in night mode */
+}
+
+.night-mode main h2,
+.night-mode main h3 {
+  color: #7A2E2E; /* Reddish-brown color for section headings in night mode */
+}
+
 /* Mobile-friendly styles */
 @media (max-width: 768px) {
   body {
@@ -182,8 +194,6 @@ main img {
   }
 
   header button {
-    top: 100px; /* Adjust button position for mobile */
-    right: 10px; /* Adjust button position for mobile */
     font-size: 1.25rem; /* Smaller icon size on mobile */
   }
 
