@@ -9,7 +9,7 @@ I am a Ph.D student in theoretical physics at the **University of British Columb
 
 ## Research
 
-My research broadly involves quantum field theories. Currently, I am focusing on calculating classical gravitational observables from the classical limit of the gravitational effective field theories. These results are useful for providing theoretical predictions for gravitational wave detectors. I also worked on the conformal field theory side of the AdS/CFT correspondence. I am also deeply intrigued by the field of deep learning.
+My research broadly involves quantum field theories. Currently, I am focusing on calculating classical gravitational observables from the classical limit of the gravitational effective field theories. These results are useful for providing theoretical predictions for gravitational wave detectors. I am also deeply intrigued by the field of deep learning.
 
 ## Publications
 For my most up-to-date academic profile, please visit [inspire](https://inspirehep.net/authors/1674623?ui-citation-summary=true).
@@ -36,10 +36,6 @@ For my most up-to-date academic profile, please visit [inspire](https://inspireh
 
 7. Bohr van-Leeuwen theorem in non-commutative space [arXiv:1910.12009](https://arxiv.org/abs/1910.12009)\
  *Biswas S*, [Physics Letters A 381 (2017) 3723-3725](https://www.sciencedirect.com/science/article/pii/S0375960117309489)
-
-8. Quantum gravity effects in statistical mechanics with modified dispersion relation [arXiv:1706.03911](https://arxiv.org/abs/1706.03911)\
- *Biswas S, Faruk M M*, [Adv. High Energy Phys. (2018) 8968732](https://doi.org/10.1155/2018/8968732)
-
 
 
 
