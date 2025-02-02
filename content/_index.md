@@ -5,12 +5,13 @@ date: 2025-01-29
 
 ## Hello!
 
-I am a Ph.D student in theoretical physics at the **University of British Columbia**, Canada. I did my Bachelor's in Electrical Engineering at **Bangladesh University of Engineering and Technology**, Bangladesh.
+I am a Ph.D student in theoretical physics at the **University of British Columbia**, Canada. I did my Bachelor's in Electrical Engineering at **Bangladesh University of Engineering and Technology**.
 
 ## Research
 
-I work in all aspects of quantum field theory - formal and observational. I am currently working on calculating classical gravitational observables form the classical limit of the quantum field theories aiming at providing theoretical predictions for gravitational wave detectors. I am also very interested in deep learning.
- 
+I am broadly interested in quantum field theory. I am currently working on calculating classical gravitational observables form the classical limit of the quantum field theories. These results are useful for providing theoretical predictions for gravitational wave detectors. I am also deeply fascinated by the field of deep learning.
+
+## Publications
 For my most up-to-date academic profile, please visit [inspire](https://inspirehep.net/authors/1674623?ui-citation-summary=true).
 
 1. Classical Observables from Causal Response Functions [arxiv:2411.09016](https://arxiv.org/abs/2411.09016)\
