@@ -1,6 +1,6 @@
 ---
 title: "home"
-date: 2025-01-29
+date: 2025-02-02
 ---
 
 ## Hello!
@@ -9,7 +9,7 @@ I am a Ph.D student in theoretical physics at the **University of British Columb
 
 ## Research
 
-I am broadly interested in quantum field theory. I am currently working on calculating classical gravitational observables form the classical limit of the quantum field theories. These results are useful for providing theoretical predictions for gravitational wave detectors. I am also deeply fascinated by the field of deep learning.
+My research broadly involves quantum field theories. Currently, I am focusing on calculating classical gravitational observables from the classical limit of the gravitational effective field theories. These results are useful for providing theoretical predictions for gravitational wave detectors. I also worked on the conformal field theory side of the AdS/CFT correspondence. I am also deeply intrigued by the field of deep learning.
 
 ## Publications
 For my most up-to-date academic profile, please visit [inspire](https://inspirehep.net/authors/1674623?ui-citation-summary=true).
