@@ -5,11 +5,11 @@ date: 2025-02-02
 
 ## Hello!
 
-I am a Ph.D student in theoretical physics at the **University of British Columbia**, Canada. I did my Bachelor's in Electrical Engineering at **Bangladesh University of Engineering and Technology**.
+I completed my Ph.D. in theoretical physics at the University of British Columbia, Canada, in July 2025 under the supervision of Prof. [Gordon Semenoff](https://en.wikipedia.org/wiki/Gordon_Walter_Semenoff). Before that, I did my Bachelor's in Electrical Engineering at **Bangladesh University of Engineering and Technology**.
 
 ## Research
 
-My research broadly involves quantum field theories. Currently, I am focusing on calculating classical gravitational observables from the classical limit of the gravitational effective field theories. These results are useful for providing theoretical predictions for gravitational wave detectors. I am also deeply intrigued by the field of deep learning.
+My Ph.D. research broadly revolved around quantum field theories. Currently, I am transitioning into machine learning research. I am interested in both the training dynamics of large neural networks and interpretability research.
 
 ## Publications
 For my most up-to-date academic profile, please visit [inspire](https://inspirehep.net/authors/1674623?ui-citation-summary=true).
