@@ -9,7 +9,7 @@ I completed my Ph.D. in theoretical physics at the University of British Columbi
 
 ## Research
 
-My Ph.D. research broadly revolved around quantum field theories. Currently, I am transitioning into machine learning research. I am interested in both the training dynamics of large neural networks and interpretability research.
+My Ph.D. research broadly revolved around quantum field theories. Currently, I am transitioning into machine learning research. I am interested in both the training dynamics of large neural networks and interpretability.
 
 ## Publications
 For my most up-to-date academic profile, please visit [inspire](https://inspirehep.net/authors/1674623?ui-citation-summary=true).
